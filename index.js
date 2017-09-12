@@ -21,7 +21,7 @@ function appendKitten(name){
   return newArray
 }
 function prependKitten(name){
-    var newArray = kittens.clone()
+    var newArray = kittens.slice
     newArray.unshift(name)
     return newArray
 }
